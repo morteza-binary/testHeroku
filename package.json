@@ -1,15 +1,16 @@
 {
-	"name": "test-heroku-binary",
-	"version": "1.0.0",
-	"repository": {
-    		"type": "git",
-    		"url": "git@github.com:binary-com/mobile.git"
-  	},
-  	"private": true,
-  	"dependencies": {
-    		"express": "^4.13.3"
-	},
-	"scripts": {
-		"postinstall": "./node_modules/bower/bin/bower install"
-	}
+  "name": "test-heroku-binary",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:binary-com/mobile.git"
+  },
+  "private": true,
+  "dependencies": {
+    "bower": "^1.7.0",
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  }
 }
