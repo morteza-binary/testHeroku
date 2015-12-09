@@ -1,0 +1,19 @@
+{
+  "name": "testHeroku",
+  "homepage": "https://github.com/morteza-binary/testHeroku",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8"
+  }
+}
