@@ -1,4 +1,12 @@
 {
 	"name": "test-heroku-binary",
-	"version": "1.0.0"
+	"version": "1.0.0",
+	"repository": {
+    		"type": "git",
+    		"url": "git@github.com:binary-com/mobile.git"
+  	},
+  	"private": true,
+  	"dependencies": {
+    		"express": "^4.13.3"
+	}
 }
